@@ -7,3 +7,17 @@
 :root{
   
 }
+
+
+.tileWrapper{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 5px;
+
+  .tile{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: gainsboro;
+    border-radius: 5px;
+  }
+}
